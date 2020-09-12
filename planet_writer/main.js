@@ -2,12 +2,6 @@ import * as THREE from '../node_modules/three/build/three.module.js';
 
 const MAX_POINTS = 1024 * 4;
 
-function getRandomInt(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-
 const render = function(time) {
     requestAnimationFrame(render);
 
